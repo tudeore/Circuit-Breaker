@@ -1,0 +1,14 @@
+package com.cb.helloweb.controller;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
+
+@EnableCircuitBreaker
+@RestController
+@SpringBootApplication
+public class HelloController {
+
+	
+	@Autowired
+	public Controller controller;
+}

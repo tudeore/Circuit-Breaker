@@ -1,0 +1,19 @@
+package com.cb.helloweb.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class Controller {
+
+	@Autowired
+	private CircuitBreaker breaker;
+
+	@
+	public String getMessage() {
+		return breaker.readingList();
+	}
+
+}

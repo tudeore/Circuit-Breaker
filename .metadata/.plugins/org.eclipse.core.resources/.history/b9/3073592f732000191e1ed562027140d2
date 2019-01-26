@@ -1,0 +1,30 @@
+package com.cb.helloweb.controller;
+
+import java.net.URI;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class CircuitBreaker {
+
+	
+	@Autowired
+	public RestTemplate restTemplate;
+	
+	
+
+	  @HystrixCommand(fallbackMethod = "reliable")
+	  public String readingList() {
+	    URI uri = URI.create("http://localhost:8181/hello");
+
+	    return this.restTemplate.getForObject(uri, String.class);
+	  }
+
+	  public String reliable() {
+	    return "goodd";
+	  }}

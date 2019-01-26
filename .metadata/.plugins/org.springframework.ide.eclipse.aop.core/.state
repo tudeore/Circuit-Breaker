@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="hello-web">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/hello-web/src/main/java/com/cb/helloweb/HelloWebApplication.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="true">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:hello-web|3:java:com.cb.helloweb.HelloWebApplication|8:circuitBreaker:12" bean-file="/hello-web/src/main/java/com/cb/helloweb/controller/CircuitBreaker.java" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/hello-web/src/main/java/com/cb/helloweb/HelloWebApplication.java" source="=hello-web/C:\/Users\/tudeore\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.18\/hystrix-javanica-1.5.18.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=hello-web/src\/main\/java&lt;com.cb.helloweb.controller{CircuitBreaker.java[CircuitBreaker~readingList" target-start-line="18"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="hello-service"/>
+</aop-reference-model>

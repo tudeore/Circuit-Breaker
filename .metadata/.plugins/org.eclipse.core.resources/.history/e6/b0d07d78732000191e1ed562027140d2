@@ -1,0 +1,16 @@
+package com.cb.helloweb.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Controller
+public class Controller {
+
+	@Autowired
+	private CircuitBreaker breaker;
+
+	@
+	public String getMessage() {
+		return breaker.readingList();
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.cb.helloweb.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.client.RestTemplate;
+
+public class Controller {
+
+	@Autowired
+	private final RestTemplate restTemplate;
+	
+	public Controller(RestTemplate restTemplate) {
+		
+		
+	}
+	
+}

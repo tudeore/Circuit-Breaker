@@ -12,9 +12,21 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\hello-web"/>
-			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\hello-service"/>
-			<item value="C:\Users\tudeore\Desktop\Zuul-Workspace\Hello-World"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\NEW FOLDER 22\zuul-mmbank"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\NEW FOLDER 22\website"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\NEW FOLDER 22\eureka-server"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\NEW FOLDER 22\configuration-service"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\NEW FOLDER 22\bank-transection"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\NEW FOLDER 22\bankapp"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\New folder\zuul-mmbank"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\New folder\website"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\New folder\eureka-server"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\New folder\configuration-service"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\New folder\bank-transection"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\New folder\bankapp"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\bankapp"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\zuul-mmbank"/>
+			<item value="C:\Users\tudeore\Desktop\circuit-worksapce\website"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

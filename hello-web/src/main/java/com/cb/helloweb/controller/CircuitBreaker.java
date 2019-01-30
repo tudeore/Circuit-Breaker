@@ -22,7 +22,7 @@ public class CircuitBreaker {
 	}
 
 	public String reliable() {
-		return "good Afternoon";
+		return "good morning";
 	}
 
 }

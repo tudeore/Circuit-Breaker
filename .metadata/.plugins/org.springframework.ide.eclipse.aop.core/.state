@@ -6,4 +6,5 @@
 </aspect-definition>
 </aop-project>
 <aop-project name="hello-service"/>
+<aop-project name="website"/>
 </aop-reference-model>
